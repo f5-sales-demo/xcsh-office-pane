@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>xcsh — Privacy Policy</title>
+  <style>body{font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;color:#333;line-height:1.6}h1{color:#ca260a}</style>
+</head>
+<body>
+  <h1>xcsh Privacy Policy</h1>
+  <p><strong>Effective date:</strong> July 2026</p>
+  <p>The xcsh Office add-in ("xcsh") is developed by F5 Sales Demo. This policy describes how xcsh handles your data.</p>
+  <h2>Data processing</h2>
+  <p>xcsh processes your document data <strong>locally on your machine</strong>. The add-in's task pane runs in your browser and connects to the xcsh CLI agent running on your local computer. Your document content (cell values, text, slide content) is read by the locally-running agent to answer your questions.</p>
+  <h2>LLM processing</h2>
+  <p>When you ask xcsh a question, the agent sends your prompt (which may include document excerpts) to an AI language model via the configured gateway (by default, an F5-hosted Anthropic API endpoint). The LLM provider's own privacy policy governs how prompts are processed. xcsh does not independently store, log, or share your prompts or document data beyond this LLM request.</p>
+  <h2>Data we collect</h2>
+  <p>xcsh does not collect personal information, telemetry, or usage analytics. No data is sent to F5 Sales Demo servers. The add-in has no backend service beyond the locally-running CLI.</p>
+  <h2>Third-party services</h2>
+  <p>The add-in loads its UI from GitHub Pages (f5-sales-demo.github.io). The Office.js library is loaded from Microsoft's CDN. The local agent may connect to an LLM provider as configured.</p>
+  <h2>Contact</h2>
+  <p>For questions about this privacy policy, open an issue at <a href="https://github.com/f5-sales-demo/xcsh/issues">github.com/f5-sales-demo/xcsh/issues</a>.</p>
+</body>
+</html>
